@@ -1,0 +1,2622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Wedding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+<style>
+     input::placeholder{
+            color: aquamarine;
+            opacity: 1;
+        }
+        .nav-link{
+            font-size: larger;
+            font-weight: bold;
+             font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f0f0f0;
+            display: flex;
+            gap: 30px;
+        }
+    .card.hover, .card:hover {
+      box-shadow: 2px 2px 10px gray;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+        .navbar-nav{
+            justify-content: center;
+           align-items: center;
+        }
+    .card-img{
+      height: 300px;
+      object-fit: cover;
+      filter: brightness(40%);
+    }
+        .logo{
+            border-radius: 50%;
+            box-shadow: 2px 2px 10px gray;
+            width: 90px;
+            height: auto;
+        }
+         .navbar{
+            background: linear-gradient(to right, #8f584a, #65392e);
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+            
+        }
+        h1{
+           text-align: center;
+            margin: 50px;
+            font-size: 40px;
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: brown;
+            font-weight: bold;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            background: linear-gradient(to right, #ff7e5f, #251305);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+        .card-text1, .card-title1{
+            margin: 100px;
+             font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: black;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            background: linear-gradient(to right, #f3f2f2, #fafafa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .card{
+            box-shadow: 2px 2px 10px gray;
+        }
+        a{
+            margin: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        body{
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .card{
+            margin-bottom: 50px;
+            border-color: gold;
+        }
+</style>
+</head>
+<body>
+  <div id="saleBanner" class="alert alert-warning text-center fw-bold mb-0" style="animation: banner-fade 1.5s infinite alternate;">
+  🎉 Big Sale! Up to 50% off on selected items! Shop Now! 🎉
+</div>
+  <div class="position-fixed top-0 end-0 m-3 z-3">
+  <button id="themeToggle" class="btn btn-outline-secondary">🌙</button>
+</div>
+   <nav class="navbar navbar-expand-lg bg-blake shadow-lg ">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand fs-3 text-light ">
+                <img src="../Mylogo-removebg-preview (1).png" alt="" width="70" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ps-lg-5">
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-items dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Clothes</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#men" class="dropdown-item">Men Clothes</a></li>
+                            <li><a href="#girl" class="dropdown-item">Woman Clothes</a></li>
+                            <li><a href="#couple" class="dropdown-item">Couple Set</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-items dropdown ">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nescessary</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#crown" class="dropdown-item">Crown</a></li>
+                            <li><a href="#nac" class="dropdown-item">Neclace</a></li>
+                            <li><a href="#hair" class="dropdown-item">Hair-Style</a></li>
+                        </ul>  
+                    </li>
+                    <li class="nav-items">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                     <form class="d-flex">
+                    <input type="text" class="ms-2 border-0 border-bottom border-2 form-control mr-lg-2" style="background:transparent;" placeholder="Search">
+                </form>
+                </ul>
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="slide">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                     
+                      <div class="carousel-item active">
+                        <div class="card text-bg-dark">
+                            <img src="../My Project/Clothes img/bg3.jpg" class="card-img d-block w-100" alt="..."  >
+                            <div class="card-img-overlay">
+                            <h5 class="card-title1">Welcom to Khmer Empire Clothes</h5>
+                            <p class="card-text1 ">You can find for many thing you want here!!!</p>
+                            <p class="card-text1 ">Enjoy Your Shopping!!!</p>
+                            </div>
+                         </div>
+                        
+                      </div>
+      
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+    
+
+    <style>
+        input::placeholder{
+            color: aquamarine;
+            opacity: 1;
+        }
+        .nav-link{
+            font-size: larger;
+            font-weight: bold;
+             font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f0f0f0;
+            display: flex;
+            gap: 30px;
+        }
+        .card.hover{
+            box-shadow: 2px 2px 10px gray;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+
+        }
+        .navbar-nav{
+            justify-content: center;
+           align-items: center;
+        }
+        .card-img{
+            height: 900px;
+            filter: brightness(40%);
+        }
+        .logo{
+            border-radius: 50%;
+            box-shadow: 2px 2px 10px gray;
+            width: 90px;
+            height: auto;
+        }
+         .navbar{
+            background: linear-gradient(to right, #8f584a, #65392e);
+            
+        }
+        h1{
+           text-align: center;
+            margin: 50px;
+            font-size: 40px;
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: brown;
+            font-weight: bold;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            background: linear-gradient(to right, #ff7e5f, #251305);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+        .card-text1, .card-title1{
+            margin: 100px;
+             font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: black;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            background: linear-gradient(to right, #f3f2f2, #fafafa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .card{
+            box-shadow: 2px 2px 10px gray;
+        }
+        a{
+            margin: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        body{
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .card{
+            margin-bottom: 50px;
+            border-color: gold;
+        }
+    </style>
+    
+    
+<h1>សម្លៀកបំពាក់បុរសខ្មែរ / Traditional Clothes For Wedding </h1>
+     
+    <div class="container-fluid" id="men">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/b1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+
+                      <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/b9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Full Price=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             
+        </div>
+   </div>
+   <h1> សម្លៀកបំពាក់ស្រ្តីខ្មែរ /  Women Traditional Clothes For Wedding </h1>
+   <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" id="girl">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/g20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/g21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/g2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/g23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/g24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h1>Couple Traditional Clothes For Wedding and Khmer Event </h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" id="couple">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/cp21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/cp22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                    <img src="../My Project/Clothes img/cp22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/cp1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<h1>ម្កុជខ្មែរសម្រាប់កម្មវិធីខ្មែរ /  Khmer Crown for Khmer Event</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" id="crown">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best product for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/c24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<h1>គ្រឿងអល្គ័ង្គាខ្មែរសម្រាប់កម្មវិធីខ្មែរ /  Khmer Crown for Khmer Event</h1>
+
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div><div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+<div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/n24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <h1>ម៉ូតសក់សម្រាប់ស្រ្តីខ្មែរ /  Women Traditional Clothes For Wedding </h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" id="hair">
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h10.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h12.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h13.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h14.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h15.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h16.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h17.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h18.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h19.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h20.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div><div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h21.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h22.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h23.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h24.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h25.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h26.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h27.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4" >
+                <div class="card h-100">
+                   
+                    <img src="../My Project/Clothes img/h28.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title"><u>Full Price</u>=<del>299$</del></h5>
+                      <h5>After Discount=<mark style="color: brown;">199$ ONLY</mark></h5><br>
+                      <p class="card-text">
+                        The best clothes for wedding recommended by many customers
+                      </p>
+                      <a href="#" class="btn btn-danger justify-content-lg-between">Buy Now</a>
+                      <a href="#" class="btn btn-success justify-content-between">See more</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="modal fade" id="quickViewModal" tabindex="-1" aria-labelledby="quickViewLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="quickViewLabel">Product Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" id="quickViewContent">
+        <!-- Product details will be injected here -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container my-5">
+  <h2 class="text-center mb-4">What Our Customers Say</h2>
+  <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-flex flex-column align-items-center">
+          <p class="fs-5 fst-italic">"Beautiful traditional clothes and great service!"</p>
+          <span class="fw-bold">- Sopheak, Phnom Penh</span>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex flex-column align-items-center">
+          <p class="fs-5 fst-italic">"Fast delivery and the quality is amazing."</p>
+          <span class="fw-bold">- Dara, Siem Reap</span>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-flex flex-column align-items-center">
+          <p class="fs-5 fst-italic">"I love the wedding collection! Highly recommended."</p>
+          <span class="fw-bold">- Lina, Battambang</span>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="container my-5">
+  <div class="alert alert-success text-center fs-4 fw-bold" role="alert">
+    Thank you for visiting Khmer Empire Clothes! We appreciate your support and wish you a wonderful shopping experience.
+  </div>
+</div>
+    <footer class="bg-dark text-light py-4 mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-4 mb-3 mb-md-0 text-center text-md-start">
+        <img src="../Mylogo-removebg-preview (1).png" alt="Logo" width="60" class="mb-2">
+        <div class="fw-bold">Khmer Empire Clothes</div>
+        <div class="small">Quality & Tradition</div>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0 text-center">
+        <a href="#" class="text-light text-decoration-none mx-2">Home</a>
+        <a href="#" class="text-light text-decoration-none mx-2">Shop</a>
+        <a href="#" class="text-light text-decoration-none mx-2">About</a>
+        <a href="#" class="text-light text-decoration-none mx-2">Contact</a>
+      </div>
+      <div class="col-md-4 text-center text-md-end">
+        <div class="small">&copy; 2025 Khmer Empire Clothes. All rights reserved.</div>
+      </div>
+    </div>
+  </div>
+</footer>
+<
+</body>
+</html>

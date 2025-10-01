@@ -1,0 +1,147 @@
+/* Carousel background pattern fix */
+.slide {
+    background-image: url('../My Project/Clothes img/pattern.jpg'); /* Update with your actual pattern image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 900px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+input::placeholder{
+            color: aquamarine;
+            opacity: 1;
+        }
+        .nav-link{
+            font-size: larger;
+            font-weight: bold;
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f0f0f0;
+            display: flex;
+            gap: 30px;
+            padding-left: 18px;
+            padding-right: 18px;
+        }
+        .card.hover{
+            box-shadow: 2px 2px 10px gray;
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+
+        }
+        .navbar-nav{
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .card-img{
+            height: 300px;
+            object-fit: cover;
+            filter: brightness(40%);
+        }
+        
+        .logo{
+            border-radius: 50%;
+            box-shadow: 2px 2px 10px gray;
+            width: 90px;
+            height: auto;
+        }
+        .navbar{
+            background: linear-gradient(to right, #8f584a, #65392e);
+            position: sticky;
+            top: 0;
+            z-index: 1030;
+            box-shadow: 2px 2px 10px gray;
+            
+
+        }
+        h1{
+           text-align: center;
+            margin: 50px;
+            font-size: 10px;
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: brown;
+            font-weight: bold;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            background: linear-gradient(to right, #ff7e5f, #251305);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+        .card-text1, .card-title1{
+            margin: 100px;
+             font-family: "Lobster", sans-serif;
+            font-weight: 200;
+            font-style: normal;
+            color: black;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            background: linear-gradient(to right, #f3f2f2, #fafafa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 10px;
+        }
+        p{
+            font-size: 10px;
+        }
+        .card{
+            box-shadow: 2px 2px 10px gray;
+            margin-bottom: 50px;
+            border-color: gold;
+        }
+        a{
+            margin: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        body{
+            background: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .card{
+            margin-bottom: 50px;
+            border-color: gold;
+        }
+        input::placeholder{
+            color: aquamarine;
+            opacity: 1;
+        }
+        .nav-link{
+            font-size: larger;
+            font-weight: bold;
+             font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f0f0f0;
+            display: flex;
+            gap: 30px;
+        }
+    .card.hover, .card:hover {
+      box-shadow: 2px 2px 10px gray;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .navbar-nav{
+            justify-content: center;
+           align-items: center;
+        }
+    .card-img{
+      height: 300px;
+      object-fit: cover;
+      filter: brightness(40%);
+    }
